@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <p>Iphone Calculator App</p>
+    </div>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" name="" id="displayInput">
+        </div>
+        <div class="btnparent">
+            <button onclick="clearValue()" class="btn silver">C</button>
+            <button onclick="getValue('%')" class="btn silver">%</button>
+            <button onclick="clearLastValue()" class="btn silver">&#8592;</button>
+            <button onclick="getValue('/')" class="btn orange">/</button>
+            <button onclick="getValue(7)" class="btn grey">7</button>
+            <button onclick="getValue(8)" class="btn grey">8</button>
+            <button onclick="getValue(9)" class="btn grey">9</button>
+            <button onclick="getValue('*')" class="btn orange">x</button>
+            <button onclick="getValue(4)" class="btn grey">4</button>
+            <button onclick="getValue(5)" class="btn grey">5</button>
+            <button onclick="getValue(6)" class="btn grey">6</button>
+            <button onclick="getValue('-')" class="btn orange">-</button>
+            <button onclick="getValue(1)" class="btn grey">1</button>
+            <button onclick="getValue(2)" class="btn grey">2</button>
+            <button onclick="getValue(3)" class="btn grey">3</button>
+            <button onclick="getValue('+')" class="btn orange">+</button>
+            <button onclick="getValue(0)" class="btn zero grey">0</button>
+            <button onclick="getValue('.')" class="btn grey">.</button>
+            <button onclick="solve()" class="btn orange">=</button>
+        </div>
+        <div class="btm_line"></div>
+
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

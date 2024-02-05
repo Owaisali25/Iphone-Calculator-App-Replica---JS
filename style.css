@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: orange;
+    font-family: 'Protest Strike', sans-serif;
+}
+.heading{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 50px;
+}
+.calculator{
+    width: 300px; 
+    background-color: black;
+    margin: 40px auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50px; 
+}
+
+.display{
+    padding: 10px 0;
+}
+.display input{
+    height: 80px;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 3em;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-align: right;
+}
+
+.btnparent{
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 40px;
+}
+
+.btn{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.4em;
+    margin: 5px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.zero{
+    width: 135px;
+    border-radius: 35px;
+    text-align: left;
+    padding-left: 30px;
+}
+.silver{
+    color: black;
+    background-color: silver;
+}
+.orange{
+    background-color: orange;
+}
+.grey{
+    background-color: rgb(65, 61, 61);
+}
+.btm_line{
+    width: 120px;
+    height: 4px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
